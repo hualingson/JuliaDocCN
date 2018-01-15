@@ -1,28 +1,20 @@
-# Julia 中文文档说明
+# Julia中文文档
 
-这是 `Julia` 语言的中文文档。
+[鸣谢早期的部分翻译工作](#juliacn)；会校审这些已有的翻译稿，将电子版格式从reStructuredText改为Markdown，放弃Sphinx、改用某种JS实现的Markdown解析器。
 
-除了 [在线阅读](http://julia-cn.readthedocs.org/zh_CN/latest/)，也可到 [下载页面](https://readthedocs.org/projects/julia-cn/downloads/) 瞧瞧。
-
-欢迎大伙儿来修订文档。仅翻译的话，什么都不用安装，直接找到要修改的文件，点击 `Edit` ，编辑好后提交即可。对 git 熟悉的请使用 git 。
-
-文档翻译规范请参考 [这里](https://github.com/JuliaCN/julia_zh_cn/issues/59#)。
-
-停止支持标准库和扩展包部分的翻译了，多看英文文档会比较好。
-
-本翻译项目追随 [Julia 源代码](https://github.com/JuliaLang/julia) 的 master 分支。对其余分支（如已发行版的维护分支）的支持，暂不能保证（总是忘记 git checkout ）。
+本项目原则是“宁缺毋滥”，提交的翻译稿严格跟[JuliaDoc](https://github.com/JuliaLang/JuliaDoc)的master分支相应的部分保持语义一致。
 
 ## 文件布局
+暂时保持如下结构。
 
-    manual/         Julia 手册
-    stdlib/         Julia 标准库文档
+    manual/         Julia手册
+    stdlib/         Julia标准库文档
 	packages/       扩展包文档
-	
-	conf.py         Sphinx 配置文件
-	
+	conf.py         Sphinx配置文件
 	note/           暂时存放一些笔记之类的东西，将来很有可能移走
 
-## to do
+## TODO
+亟待核实并翻译之。
 
     ./manual/
 			control-flow.rst
@@ -37,3 +29,6 @@
             style-guide.rst
             faq.rst
             noteworthy-differences.rst
+
+---
+[截至commit-ddbbb719ac09289719219605ff316fe8fb93cc23，之后的完全由JulialangOrgCN（朱华社区）组织翻译。](id: juliacn)
