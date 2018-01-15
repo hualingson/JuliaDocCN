@@ -31,4 +31,4 @@
             noteworthy-differences.rst
 
 ---
-[截至commit-ddbbb719ac09289719219605ff316fe8fb93cc23，之后的完全由JulialangOrgCN（朱华社区）组织翻译。](id: juliacn)
+<p id="juliacn">截至commit-ddbbb719ac09289719219605ff316fe8fb93cc23，之后的完全由JulialangOrgCN（朱华社区）组织翻译。</p>
