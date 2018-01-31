@@ -7,28 +7,27 @@
 ## 文件布局
 暂时保持如下结构。
 
-    manual/         Julia手册
-    stdlib/         Julia标准库文档
+	manual/         Julia手册
+	stdlib/         Julia标准库文档
 	packages/       扩展包文档
-	conf.py         Sphinx配置文件
 	note/           暂时存放一些笔记之类的东西，将来很有可能移走
 
 ## TODO
 亟待核实并翻译之。
 
-    ./manual/
-			control-flow.rst
-            types.rst
-            metaprogramming.rst
-            networking-and-streams.rst
-            parallel-computing.rst
-            calling-c-and-fortran-code.rst
-            embedding.rst
-            packages.rst
-            performance-tips.rst
-            style-guide.rst
-            faq.rst
-            noteworthy-differences.rst
+	./manual/
+		control-flow.rst
+		types.rst
+		metaprogramming.rst
+		networking-and-streams.rst
+		parallel-computing.rst
+		calling-c-and-fortran-code.rst
+		embedding.rst
+		packages.rst
+		performance-tips.rst
+		style-guide.rst
+		faq.rst
+		noteworthy-differences.rst
 
 ---
-[截至commit-ddbbb719ac09289719219605ff316fe8fb93cc23，之后的完全由JulialangOrgCN（朱华社区）组织翻译。](id: juliacn)
+<p id="juliacn">截至commit-ddbbb719ac09289719219605ff316fe8fb93cc23，之后的完全由JulialangOrgCN（朱华社区）组织翻译。</p>
